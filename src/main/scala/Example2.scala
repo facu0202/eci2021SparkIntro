@@ -1,8 +1,8 @@
-package org.example
 
-import com.typesafe.scalalogging.Logger
+
+
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.{SparkConf, SparkContext}
+
 
 object Example2 {
 

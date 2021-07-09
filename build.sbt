@@ -1,10 +1,8 @@
-name := "repo"
+name := "eci2021SparkIntro"
 
-version := "1.0-SNAPSHOT"
+version := "0.1"
 
 scalaVersion := "2.12.10"
-
-idePackagePrefix := Some("org.example")
 
 val sparkVersion = "3.1.1"
 
@@ -12,6 +10,5 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
   "org.apache.spark" %% "spark-mllib" % sparkVersion,
-  "org.apache.spark" %% "spark-streaming" % sparkVersion,
-  "com.typesafe.scala-logging" %% "scala-logging" % "3.9.3"
+  "org.apache.spark" %% "spark-streaming" % sparkVersion
 )

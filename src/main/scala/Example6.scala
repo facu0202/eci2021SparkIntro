@@ -1,12 +1,12 @@
-package org.example
 
-import com.typesafe.scalalogging.Logger
+
+
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.{SparkConf, SparkContext}
+
 
 object Example6 {
 
-  val logger = Logger(Example1.getClass.getName)
+
   def main(args: Array[String]): Unit = {
 
 
